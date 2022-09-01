@@ -14,7 +14,7 @@ async function fetchData(urlApi) {
     return data;
 }
 
-(async () => {
+(async () => { //funcion anonima
     try{
         const videos = await fetchData(API);
         let view = `
